@@ -23,6 +23,7 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     border-radius: 5px;
+    cursor: pointer;
 }
 #box2{
     width: 400px;
@@ -66,10 +67,16 @@ span{
 h3{
     color: rgb(66, 60, 60);
     height: 60px;
+    cursor: pointer;
 }
 
 #exit{
     transition: transform 1s;
+    cursor: pointer;
+}
+
+.icon{
+    cursor: pointer;
 }
 
 @keyframes zoom{

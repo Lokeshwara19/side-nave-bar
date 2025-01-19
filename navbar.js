@@ -38,11 +38,11 @@ exitbtn.addEventListener("mouseout",()=>{
 for(let i=0;i<navicons.length;i++){
     navicons[i].addEventListener("mouseover",()=>{
         navicons[i].style.color="rgb(42, 95, 138)";
-        navicons[i].style.transform = 'scale(1.1)'
+        navicons[i].style.transform = 'scale(1.1)';
     })
     navicons[i].addEventListener("mouseout",()=>{
         navicons[i].style.color="rgb(0, 140, 255)";
-        navicons[i].style.transform = 'scale(1)'
+        navicons[i].style.transform = 'scale(1)';
     })
 }
 
@@ -50,6 +50,7 @@ for(let i=0;i<navoptions.length;i++){
     navoptions[i].addEventListener("mouseover",()=>{
         navoptions[i].style.backgroundColor="rgb(109, 156, 194)";
         navoptions[i].style.transform = 'scale(1.1)';
+        navoptions[i].style.transition = "1s";
     })
     navoptions[i].addEventListener("mouseout",()=>{
         navoptions[i].style.backgroundColor="rgb(255, 255, 255)";
